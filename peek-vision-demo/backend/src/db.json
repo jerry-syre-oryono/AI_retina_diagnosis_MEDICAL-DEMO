@@ -1,0 +1,14 @@
+{
+  "reports": [
+    {
+      "id": "ydUizn4qmLy5kq_aolk03",
+      "filename": "Albinotic-fundus.jpg",
+      "result": {
+        "brightness": 86,
+        "redness": 53,
+        "clarity": 72
+      },
+      "createdAt": "2025-10-14T06:14:42.419Z"
+    }
+  ]
+}
