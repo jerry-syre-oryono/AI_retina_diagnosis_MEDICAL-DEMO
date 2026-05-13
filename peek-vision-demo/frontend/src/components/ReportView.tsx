@@ -12,10 +12,20 @@ export default function ReportView({ report }: { report: any }) {
           <table>
             <tbody>
               <tr><td>File</td><td>{report.filename}</td></tr>
-              <tr><td>Brightness</td><td>{Math.round(report.brightness)}</td></tr>
-              <tr><td>Red mean</td><td>{Math.round(report.redMean)}</td></tr>
-              <tr><td>Edge count</td><td>{report.edgeCount}</td></tr>
-              <tr><td>Conclusion</td><td>{report.conclusion}</td></tr>
+              <tr><td>Result</td><td>{report.result}</td></tr>
+              <tr><td>Confidence</td><td>{report.confidence}</td></tr>
+              <tr>
+                <td>Recommendations</td>
+                <td>
+                  {report.recommendations && report.recommendations.length > 0 ? (
+                    <ul>
+                      {report.recommendations.map((rec: string, i: number) => (
+                        <li key={i}>{rec}</li>
+                      ))}
+                    </ul>
+                  ) : 'N/A'}
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>

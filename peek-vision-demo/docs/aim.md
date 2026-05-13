@@ -1,5 +1,5 @@
 # Project Aim
 
-The aim of this project is to provide a simple and easy-to-use tool for screening retina photos. The application is designed to be used as a demonstration of how image analysis can be used to assess the quality of retina photos.
+The aim of this project is to provide a demonstration of an AI-powered tool for screening retinal images for potential abnormalities. The application showcases how advanced image analysis can be leveraged to provide insights into retinal health.
 
-The project is not intended to be a clinical tool, and it should not be used for diagnosis. However, it can be used to identify images that may not be suitable for further analysis due to issues such as poor lighting, glare, or blurriness.
+It is crucial to understand that **this project is purely a demonstration and research tool, and it is explicitly not intended to be a clinical diagnostic tool.** The AI's outputs are for informational purposes only and should never replace professional medical advice, diagnosis, or treatment. Users should always consult with qualified healthcare professionals for any health concerns.
